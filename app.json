@@ -57,6 +57,16 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "76626fa8-922e-4e6e-9f82-a0fbc86d889a"
+      }
+    },
+    "owner": "ahlmannen",
+    "sdkVersion": "49.0.0"
   }
 }
