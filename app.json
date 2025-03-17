@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Snus Kontroll",
+    "slug": "snus-kontroll",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "snuskontroll",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ahlmans.snuskontroll",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch"
+        ],
+        "CFBundleLocalizations": [
+          "sv"
+        ],
+        "CFBundleDevelopmentRegion": "sv",
+        "LSApplicationQueriesSchemes": [
+          "snuskontroll"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ahlmans.snuskontroll",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

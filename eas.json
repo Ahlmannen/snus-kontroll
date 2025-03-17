@@ -1,0 +1,37 @@
+{
+  "cli": {
+    "version": "15.0.15",
+    "requireCommit": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    },
+    "preview": {
+      "extends": "development",
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium",
+        "simulator": true
+      }
+    },
+    "production": {
+      "ios": {
+        "resourceClass": "m-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "adam.ahlman@hotmail.com",
+        "ascAppId": "com.ahlmans.snuskontroll",
+        "appleTeamId": "8BKG4PDD4S"
+      }
+    }
+  }
+}
